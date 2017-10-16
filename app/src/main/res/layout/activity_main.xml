@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.imed.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/iv_goverment_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        app:srcCompat="@drawable/bangladeshgovt" />
+
+    <TextView
+        android:id="@+id/tv_imed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/iv_goverment_logo"
+        android:layout_marginTop="32dp"
+        android:text="@string/imedname"
+        android:textAlignment="center"
+        android:textColor="#689F38"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_goverment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv_imed"
+        android:layout_marginTop="21dp"
+        android:fontFamily="serif"
+        android:text="@string/goverment_name"
+        android:textAlignment="center"
+        android:textColor="#689F38"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_bangla"
+        style="@style/AppTheme.RoundedCornerMaterialButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_goverment"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="92dp"
+        android:text="বাংলা " />
+
+    <Button
+        android:id="@+id/btn_english"
+        style="@style/AppTheme.RoundedCornerMaterialButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_bangla"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="18dp"
+        android:text="English"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:text="Developed by GeeksntechnologyLtd."
+        android:textAlignment="center"
+        android:textColor="#689F38"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

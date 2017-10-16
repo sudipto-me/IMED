@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">IMED</string>
+    <string name="imedname">বাস্তবায়ন পরিবীক্ষণ ও মূল্যায়ন বিভাগ</string>
+    <string name="title_activity_menu_bar">MenuBar</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="goverment_name">গণপ্রজাতন্ত্রী বাংলাদেশ সরকার</string>
+    <string name="log_in">লগ ইন</string>
+    <string name="about_imed">অধিদপ্তর সম্পর্কে</string>
+    <string name="help">সেবা প্রদান</string>
+    <string name="idea_box">আইডিয়া বক্স</string>
+    <string name="list_of_employee">কর্মকর্তাদের তালিকা</string>
+    <string name="project_list">প্ৰকল্প সমূহ</string>
+    <string name="your_project">আপনার প্রকল্প</string>
+    <string name="money_input">অর্থ প্রদান</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="eventandnews">ইভেন্ট এবং নিউজ</string>
+    <string name="blog">ব্লগ</string>
+    <string name="username">ইউজারনেম</string>
+    <string name="pass_word">পাসওয়ার্ড</string>
+    <string name="login">লগ ইন</string>
+    <string name="Bongobondhurbani">বঙ্গবন্ধুর বাণী</string>
+    <string name="mision_statement">মিশন ষ্টেটমেন্ট</string>
+    <string name="LogIn">লগ ইন</string>
+    <string name="ministry_view">Ministry View</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/LogIn" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/about_imed" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/help" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/idea_box" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/list_of_employee" />
+        <item
+            android:id="@+id/nav_manage1"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/project_list" />
+
+        <item
+            android:id="@+id/nav_manage2"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/your_project" />
+
+        <item
+            android:id="@+id/nav_manage3"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/money_input" />
+        <item
+            android:id="@+id/nav_manage4"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/money_input" />
+        <item
+            android:id="@+id/nav_manage5"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/money_input" />
+        <item
+            android:id="@+id/nav_manage6"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/money_input" />
+    </group>
+
+
+</menu>
