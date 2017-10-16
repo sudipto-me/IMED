@@ -25,7 +25,8 @@
         <activity android:name=".AboutImed.AboutImed" />
         <activity android:name=".SebaProdan.SebaProdan" />
         <activity android:name=".Officials.ListofOfficers" />
-        <activity android:name=".Officials.PersonalsList"></activity>
+        <activity android:name=".Officials.PersonalsList" />
+        <activity android:name=".Officials.OfficialsViewActivity"></activity>
     </application>
 
 </manifest>

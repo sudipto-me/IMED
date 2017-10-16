@@ -51,7 +51,7 @@ public class OfficesRecyclerAdapter extends RecyclerView.Adapter<OfficesRecycler
             @Override
             public void OnClick(View view, int position) {
 
-                Intent intent = new Intent(view.getContext(),PersonalsList.class);
+                Intent intent = new Intent(view.getContext(),OfficialsViewActivity.class);
                 view.getContext().startActivity(intent);
 
 

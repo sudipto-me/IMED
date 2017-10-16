@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.imed.Officials.OfficialsViewActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tb_office_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimary" />
+
+    <ImageView
+        android:id="@+id/iv_officials_photo"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/tb_office_name"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/bangladeshgovt" />
+
+    <LinearLayout
+        android:id="@+id/ll_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_officials_photo"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_save_number"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/vcard" />
+
+        <Button
+            android:id="@+id/btn_show_number"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/phone" />
+
+        <Button
+            android:id="@+id/btn_show_message"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/message" />
+
+        <Button
+            android:id="@+id/btn_show_email"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/email" />
+
+
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/tt_table_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_button"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:stretchColumns="1">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/leftborder">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+                android:background="@drawable/leftborder"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="@string/officials_name" />
+
+            <TextView
+                android:id="@+id/tv_official_name"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:background="@drawable/rightborder"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="Hello" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rightborder">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="@drawable/leftborder"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="@string/officials_post"
+               />
+
+            <TextView
+                android:id="@+id/tv_official_address"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/rightborder"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="Hello" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/leftborder">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:background="@drawable/leftborder"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="@string/officals_office"
+                />
+
+            <TextView
+                android:id="@+id/tv_officials_office"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:background="@drawable/rightborder"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="Hello" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tt_table_document"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tt_table_name"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:stretchColumns="1"
+        tools:layout_marginBottom="16dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/leftborder">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+                android:background="@drawable/leftborder"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="@string/officials_email" />
+
+            <TextView
+                android:id="@+id/tv_officials_email"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:background="@drawable/rightborder"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="Hello" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/leftborder">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:background="@drawable/leftborder"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="@string/officials_phone_office" />
+
+            <TextView
+                android:id="@+id/tv_office_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:background="@drawable/rightborder"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="Hello" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/leftborder">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:background="@drawable/leftborder"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="@string/officials_home_phone" />
+
+            <TextView
+                android:id="@+id/tv_home_number"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:background="@drawable/rightborder"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="Hello" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/leftborder">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:background="@drawable/leftborder"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="@string/officials_mobile" />
+
+            <TextView
+                android:id="@+id/tv_officials_mobile"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:background="@drawable/rightborder"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="Hello" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/leftborder">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:background="@drawable/leftborder"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="@string/officials_fax" />
+
+            <TextView
+                android:id="@+id/tv_officials_fax"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:background="@drawable/rightborder"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="Hello" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+</RelativeLayout>

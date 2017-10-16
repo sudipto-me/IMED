@@ -28,4 +28,12 @@
     <string name="mision_statement">মিশন ষ্টেটমেন্ট</string>
     <string name="LogIn">লগ ইন</string>
     <string name="ministry_view">Ministry View</string>
+    <string name="officials_name">নাম</string>
+    <string name="officials_post">পদবী</string>
+    <string name="officals_office">অফিস</string>
+    <string name="officials_email">ইমেইল</string>
+    <string name="officials_fax">ফ্যাক্স</string>
+    <string name="officials_mobile">মোবাইল</string>
+    <string name="officials_home_phone">ফোন(বাসা)</string>
+    <string name="officials_phone_office">ফোন(অফিস)</string>
 </resources>
